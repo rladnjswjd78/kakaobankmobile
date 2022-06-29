@@ -154,4 +154,14 @@ section img {
   font-weight: bold;
   padding-top: 25px;
 }
-
+@media screen and (max-width:480px) {
+  footer ul{
+    display : block
+  }
+  footer ul li{
+    padding-bottom: 15px;
+  }
+  footer ul li a::after{
+    display: none;
+  }
+}
